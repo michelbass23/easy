@@ -1,0 +1,39 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title class="text-center">Log In</ion-title>
+  </ion-toolbar>
+</ion-header>
+<div class="container">
+  
+  
+    <img class="logo"src="/assets/logo.png/">
+
+
+</div>
+
+<ion-content>
+  <form>
+    <ion-item lines="full">
+      <ion-label position="floating">Email</ion-label>
+      <ion-input type="text" required></ion-input>
+    </ion-item>
+
+    <ion-item lines="full">
+      <ion-label position="floating">Senha</ion-label>
+      <ion-input type="password" required></ion-input>
+    </ion-item>
+
+    <ion-row>
+      <ion-col>
+     <ion-button [routerLink]="['/home']" expand="block" color="primary">Entrar</ion-button> 
+        <ion-button [routerLink]="['/registro']" expand="block" color="primary">Registre-se</ion-button>
+           <h6 [routerLink]="['/redefinir-senha']" class="text-center">Esqueceu a senha?</h6>
+     
+      </ion-col>
+    </ion-row>
+  </form>
+</ion-content>
+

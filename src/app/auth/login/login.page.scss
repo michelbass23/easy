@@ -1,0 +1,64 @@
+.divider {
+    display: flexbox;
+    
+    &:before,
+    &:after {
+      content: "";
+      flex: 1;
+    }
+}
+  
+.line {
+    align-items: center;
+    margin: 1em -1em;
+    color: #cccccc;
+    
+    &:before,
+    &:after {
+      height: 1px;
+      margin: 0 1em;
+    }
+} 
+
+.one-line {
+    &:before,
+    &:after {
+       background: #cccccc;
+    }
+}
+
+.auth-form ion-grid,
+.auth-form ion-row {
+    height: 100%;
+    justify-content: center;
+}
+
+.already {
+    display: block;
+    text-align: center;
+    padding-bottom: 0px;
+}
+.small-text {
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    text-align:center;
+    margin-top: 30px;
+    
+}h6{
+    text-align: center;
+    color: blue;
+}
+.small{
+    text-align: center;
+}
+.logo{
+
+   text-align: center;
+}
+.container{
+    text-align: center;
+    position:relative;
+}
+
+

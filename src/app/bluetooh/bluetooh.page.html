@@ -1,0 +1,101 @@
+<ion-content>
+  <div class="dashboard">
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="home"></ion-back-button>
+    </ion-buttons>
+   
+    <header>
+     
+      
+      <div class="text-center" class="f fe">
+        <div class="icon icon-w"></div>
+        <div class="heading">
+          <h5 class="date">24 de Abril de 2020</h5>
+          <h2 class="title">Nublado</h2>
+        </div>
+      </div>
+
+      <div class="weather f">
+        <div>
+          <strong>26°<sup>C</sup></strong>
+          <p>Temperatura</p>
+        </div>
+        <div>
+          <strong>48.2%</strong>
+          <p>Úmidade do ar</p>
+        </div>
+        <div>
+          <strong>29°</strong>
+          <p>S Térmica</p>
+        </div>
+      </div>
+    </header>
+   <div class="b">
+      <h3 align="center">Configurações</h3>
+  </div>
+   
+      <div class="appliances">
+      
+        <div class="appliance">
+          <input type="checkbox" name="a" id="a">
+          <label for="a">
+            <i class=""></i>
+            <strong>BLUETOOTH</strong>
+            
+            <span data-o="Ligado" data-c="Desligado"></span>
+            <small></small>
+          </label>
+        </div>
+        
+        <div class="appliance">
+          <input type="checkbox" name="a" id="b">
+          <label for="b">
+            <i class=""></i>
+            <strong>WI-FI</strong>
+            <span data-o="Ligado" data-c="Desligado"></span>
+            <small></small>
+          </label>
+        </div>
+       
+
+
+
+
+        <div class="sidebar"><h1 class="rotate">Apartamento</h1></div>
+<div class="bottombar">
+	<div class="card color-blue">
+		<span class="bold">Puerta</span>
+		<span id="card_time" class="card_time" datetime="2018-08-07T013:20:17Z"></span>
+		<p>Puerta apartamento abierta mediante <span class="bold">llavero fernando</span></p>
+	</div>
+		<div class="card color-red">
+		<span class="bold">Alarma</span>
+		<span id="card_time" class="card_time" datetime="2018-08-06T013:20:17Z"></span>
+		<p>Alarma de humo detectada</p>
+	</div>
+</div>
+<div class="panels" id="touchFlow">
+	<div class="panel">
+		<h1><i class="material-icons">highlight</i> Luces</h1>
+		<a href="#" class="a-noeffect"><div class="button color-white">Luz salón</div></a>
+		<a href="#" class="a-noeffect"><div class="button color-white">Luz mesa</div></a>
+		<a href="#" class="a-noeffect"><div class="button color-white">Luz habitación</div></a>
+	</div>
+	<div class="panel">
+		<h1><i class="material-icons">vpn_key</i> Puertas</h1>
+			<a href="#" class="a-noeffect"><div class="button color-white">Puerta entrada</div></a>
+			<a href="#" class="a-noeffect"><div class="button color-white">Puerta casa</div></a>
+			<a href="#" class="a-noeffect"><div class="button color-white">Puerta apartamento</div></a>
+	</div>
+	<div class="panel">
+		<h1><i class="material-icons">brightness_7</i> Termostato</h1>
+		<a href="#" class="a-noeffect"><div class="half-button color-white" onclick="termostato('+1')">+1</div></a>
+		<a href="#" class="a-noeffect"><div class="half-button color-white" onclick="termostato('+5')">+5</div></a>
+		<a href="#" class="a-noeffect"><div class="button color-green" id="termostato">15º</div></a>
+		<a href="#" class="a-noeffect"><div class="half-button color-white" onclick="termostato('-1')">-1</div></a>
+		<a href="#" class="a-noeffect"><div class="half-button color-white" onclick="termostato('-5')">-5</div></a>
+	</div>
+	<div class="panel"><h1><i class="material-icons">radio</i> Radio</h1></div>
+	<div class="panel"><h1><i class="material-icons">notification_important</i> Alarma</h1></div>
+	<div class="panel"><h1><i class="material-icons">cloud</i> Tiempo</h1></div>
+</div>

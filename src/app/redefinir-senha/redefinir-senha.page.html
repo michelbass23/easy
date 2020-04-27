@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>Redefinir senha</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <form>
+    <ion-item lines="full">
+      <ion-label position="floating">Email</ion-label>
+      <ion-input type="email" required></ion-input>
+    </ion-item>
+
+    <ion-row>
+      <ion-col>
+        <ion-button type="submit" color="danger" expand="block"[routerLink]="['/login']">Enviar</ion-button>
+      </ion-col>
+    </ion-row>
+
+    <h6>
+      Insira o email que usou para se cadastrar no aplicativo
+    </h6>
+ 
+  </form>
+</ion-content>
