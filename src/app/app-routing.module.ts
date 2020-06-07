@@ -7,7 +7,9 @@ const routes: Routes = [
   {path: '',   redirectTo: 'login', pathMatch: 'full' },
   { path: 'login', loadChildren: () => import('./auth/login/login.module').then( m => m.LoginPageModule)},
   { path: 'registro', loadChildren: () => import('./registro/registro.module').then( m => m.RegistroPageModule)},
+
   { path: 'redefinir-senha', loadChildren: () => import('./redefinir-senha/redefinir-senha.module').then( m => m.RedefinirSenhaPageModule)},
+
   {
     path: 'bluetooh',
     loadChildren: () => import('./bluetooh/bluetooh.module').then( m => m.BluetoohPageModule)
@@ -16,10 +18,6 @@ const routes: Routes = [
     path: 'controle',
     loadChildren: () => import('./controle/controle.module').then( m => m.ControlePageModule)
   },
-  {
-    path: 'intro',
-    loadChildren: () => import('./intro/intro.module').then( m => m.IntroPageModule)
-  }
 ];
 
 @NgModule({
@@ -29,3 +27,5 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
+
+
